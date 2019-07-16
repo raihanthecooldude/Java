@@ -1,0 +1,16 @@
+import java.util.Random;
+
+public class RandomNumber
+{
+	public static void main(String [] args)
+	{
+		Random r = new Random();
+		int X, Y;
+		
+		X= r.nextInt(800);
+		Y= r.nextInt(500);
+		
+		System.out.println(X);
+		System.out.println(Y);
+	}
+}
